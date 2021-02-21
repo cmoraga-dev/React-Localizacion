@@ -1,0 +1,22 @@
+.norte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ee82ee;
+ 
+}
+.sur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7FFFD4;
+}
+.image{
+    display: grid;
+    height: 100%;
+}
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
