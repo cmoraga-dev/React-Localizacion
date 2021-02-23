@@ -2,6 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import LocationDisplay from './LocationDisplay'
 
+/* 
+* Los mensajes a la consola solo son para probar los
+* métodos de ciclo de vida
+*/
 class App extends React.Component {
 
 
@@ -11,12 +15,13 @@ class App extends React.Component {
 
         //llamada asíncrona
         this.getLatitude();
-        console.log('componentdidmount at '+ new Date().getHours() + ':'+new Date().getSeconds()+':'+new Date().getMilliseconds());
+        
+        //console.log('componentdidmount at '+ new Date().getHours() + ':'+new Date().getSeconds()+':'+new Date().getMilliseconds());
     }
 
     componentDidUpdate (){
 
-        console.log('componentdidupdate at '+ new Date().getHours() + ':'+new Date().getSeconds()+':'+new Date().getMilliseconds());
+        //console.log('componentdidupdate at '+ new Date().getHours() + ':'+new Date().getSeconds()+':'+new Date().getMilliseconds());
     }
     
     render() {
